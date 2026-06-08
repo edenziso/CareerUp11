@@ -1,0 +1,11 @@
+{
+  "name": "careerup-functions",
+  "description": "CareerUp Firebase Functions",
+  "scripts": { "serve": "firebase emulators:start --only functions" },
+  "engines": { "node": "20" },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-functions": "^6.0.0",
+    "node-fetch": "^3.3.2"
+  }
+}
